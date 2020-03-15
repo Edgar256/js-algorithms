@@ -8,4 +8,4 @@ In many cases, there are multiple ways to perform a specific operation within a 
 
 Algorithms are always used to test the compentence and problem-solving ability during an interview of every engineer. I tried to compile a few common algorithms and the solutions I got for them and included them in this file. I included a webpage to test your input that you can find here
 
-<img >
+<img src='image001.PNG'>
