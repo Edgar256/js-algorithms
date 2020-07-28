@@ -11,12 +11,10 @@
     repeatStringNumTimes("abc", 1) should return "abc".
 
     repeatStringNumTimes("*", 8) should return "********".
-
-    repeatStringNumTimes("abc", -2) should return "".
 */
 
 function repeatStringNumTimes(str, num) {
-    if(!str || !num) return null;
+    if(!str || !num || num < 1) return null;
     if(num === 1) return str;
     let rStr = '' ;
     if(num < 1) return rStr;
