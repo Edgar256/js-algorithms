@@ -1,0 +1,27 @@
+{
+  "name": "js-algorithms",
+  "version": "1.0.1",
+  "description": "Common JavaScript Algorithms",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edgar256/js-algorithms.git"
+  },
+  "keywords": [
+    "Common",
+    "JavaScript",
+    "Algorithms"
+  ],
+  "author": "Edgar Tinkamanyire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Edgar256/js-algorithms/issues"
+  },
+  "homepage": "https://github.com/Edgar256/js-algorithms#readme",
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
+}

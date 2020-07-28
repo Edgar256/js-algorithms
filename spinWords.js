@@ -1,8 +1,8 @@
-function spinWords(input,num){
-    //TODO Have fun :)
-    const stringReverse = (str) => str.split('').reverse().join('');  
+function spinWords(input,num){  
+    let rex = /\S/; //regex for empty spaces
+    let word = input.split(' ').filter(rex.test.bind(rex)) ;  //filter empty spaces out
+    if(word.length < 1) return null;
+    const stringReverse = (str) => str.split('').reverse().join('');     
     return input.split(' ').map(elem => elem.length >= num ? stringReverse(elem) : elem).join(' ');  
 }
-  
-// stringReverse('edgar')
-console.log(spinWords('hey Edgar pat earnest',3))
+module.exports = spinWords;
