@@ -1,4 +1,4 @@
-## js-algorithms
+# JavaScript-algorithms
 
 An algorithm is a set of instructions designed to perform a specific task. This can be a simple process, such as multiplying two numbers, or a complex operation, such as playing a compressed video file. Search engines use proprietary algorithms to display the most relevant results from their search index for specific queries.
 
@@ -9,3 +9,36 @@ In many cases, there are multiple ways to perform a specific operation within a 
 Algorithms are always used to test the compentence and problem-solving ability during an interview of every engineer. I tried to compile a few common algorithms and the solutions I got for them and included them in this file. I included a webpage to test your input that you can find here. I will keep updating this webapp with time.
 
 <img src='image001.PNG'>
+
+## How to run this App
+Prequistes for running this project
+ - Node should be installed on your PC
+ - NPM (Node Package Manager) should also be installed
+ 
+ 
+Clone this project, by running the following command
+  ```
+  git clone git@github.com:Edgar256/js-algorithms.git
+  ```
+Check into the directory with the project
+  ```
+  cd js-algorithms
+  ```
+Install dependencies
+  ```
+  npm i
+  ```
+
+Now you are all set !!!
+
+Now simply run
+  ```
+  npm test {moduleName}
+  ```
+for the module you want to checkout.
+
+## For the browser version
+*Follow through the steps above, and then load index.html in your prefered browser, and enter your input*
+
+
+
