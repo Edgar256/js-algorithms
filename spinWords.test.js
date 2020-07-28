@@ -1,11 +1,11 @@
 const spinWords = require('./spinWords');
 
 test('properly reverse strings with minimum length 3', () => {
-    expect(spinWords('hey Edgar pat earnest',3)).toBe('yeh ragdE tap tsenrae')
+    expect(spinWords('Hey fellow warriors', 5)).toBe('Hey wollef sroirraw')
 });
 
 test('properly reverse strings with minimum length 3', () => {
-    expect(spinWords('hey Edgar , is it you',3)).toBe('yeh ragdE , is it uoy')
+    expect(spinWords('This is a test',4)).toBe('sihT is a tset')
 });
 
 test('return null for empty input', () => {
