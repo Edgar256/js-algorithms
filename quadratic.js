@@ -18,4 +18,4 @@ const quadratic = (a, b, c) => {
         console.log(`x1 : ${x1} x2 : ${x2}`) 
     }
 }
-quadratic(2, 2, 6)
+console.log(quadratic(2, 2, 6));
