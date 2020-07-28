@@ -1,4 +1,5 @@
 function missingNumber(A) {
+    if(!Array.isArray(A)) return null;
     if(A.length < 1) return null;
     let sA = A.sort((a,b) => a-b);
     let N = [...new Set(sA)];
@@ -11,4 +12,5 @@ function missingNumber(A) {
         }
     }
 }
-console.log(missingNumber([1,3,4,5,6]))
+
+module.exports = missingNumber;
