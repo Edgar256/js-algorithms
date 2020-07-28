@@ -8,9 +8,9 @@ In many cases, there are multiple ways to perform a specific operation within a 
 
 Algorithms are always used to test the compentence and problem-solving ability during an interview of every engineer. I tried to compile a few common algorithms and the solutions I got for them and included them in this file. I included a webpage to test your input that you can find here. I will keep updating this webapp with time.
 
-<img src='image001.PNG'>
 
 ## How to run this App
+<img src='image002.PNG'>
 Prequistes for running this project
  - Node should be installed on your PC
  - NPM (Node Package Manager) should also be installed
@@ -39,6 +39,7 @@ for the module you want to checkout.
 
 ## For the browser version
 *Follow through the steps above, and then load index.html in your prefered browser, and enter your input*
+<img src='image001.PNG'>
 
 
 
