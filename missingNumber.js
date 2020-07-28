@@ -1,5 +1,4 @@
 function missingNumber(A) {
-    // write your code in JavaScript (Node.js 8.9.4)
     if(A.length < 1) return null;
     let sA = A.sort((a,b) => a-b);
     let N = [...new Set(sA)];

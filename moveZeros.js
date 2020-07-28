@@ -1,3 +1,10 @@
+/*
+    Movving zeros to the end of an array
+
+    Example
+    moveZeros([1, 9, 0, 8, 0, 7]) should return 1, 9, 8, 7, 0, 0]
+*/
+
 var moveZeros = function (arr) {
     if(!Array.isArray(arr)) return null;
     let nonZArr = [], zArr = [];
