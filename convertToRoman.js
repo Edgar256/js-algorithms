@@ -1,4 +1,9 @@
+/*
+  Given a number, convert it into its equivalent roman numeral
+*/
+
 function convertToRoman(num) {
+    if(isNaN(num)) return null;
     let int = [
       1000, 900, 500,400, 100, 90, 50, 40, 10, 9, 5, 4,1
     ],times = [];
@@ -19,8 +24,6 @@ function convertToRoman(num) {
       }
     }
     return arr.join('');
-    // console.log(arr)a
-  }
-  
-  console.log(convertToRoman(400))
+  }  
+  module.exports = convertToRoman;
   
