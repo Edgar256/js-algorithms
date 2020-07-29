@@ -13,6 +13,6 @@ function generateHashtag (str) {
     }
     let hashText = arr.map(el => el.join('')).join('');
     let hashTag = `#${hashText}`
-    return (hashTag);
+    return hashTag;
 }
-console.log(generateHashtag("Aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"))
+console.log(generateHashtag("Aaaaaaaaaa"))

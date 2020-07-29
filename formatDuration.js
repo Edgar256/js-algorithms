@@ -42,5 +42,5 @@ function formatDuration (seconds) {
     console.log(years,months,weeks,days,hours, minutes, second, sayDate)
   
 }
-formatDuration(720000)
+console.log(formatDuration(720000))
   
