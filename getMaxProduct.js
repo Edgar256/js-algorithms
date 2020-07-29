@@ -1,3 +1,10 @@
+/*
+    Given an unordered array N with length greater than 2, return the maximum greatest product of any of its 3 elements
+
+    Example    
+    getMaxProduct([2,1,4,5]) should return => 40
+*/
+
 const getMaxProduct = (N) => {
     if(!(Array.isArray(N))) return null;
     if(N.length < 3) return null;
@@ -9,5 +16,4 @@ const getMaxProduct = (N) => {
     }
     return product;    
 }
-
-getMaxProduct([2, 4, 8, 0, 1, 3, 0, 4, 0,100])
+module.exports = getMaxProduct;
