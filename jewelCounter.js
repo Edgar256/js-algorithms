@@ -15,9 +15,8 @@ const jewelCounter = ( J, S) => {
     for(let i = 0; i < J.length-1; i++){
         for(let j = 0; j < S.length-1; j++){
             if(jewelArray[i] === stoneArray[j]){
-                console.log(stoneArray[i], stoneArray[j])
-                counter +=1;
-                console.log(counter)                
+                // console.log(stoneArray[i], stoneArray[j])
+                counter +=1;               
             }
         }
     }

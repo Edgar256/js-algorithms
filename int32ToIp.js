@@ -1,4 +1,5 @@
 function int32ToIp(int32){
+    if(isNaN(int32)) return null;
     let str = int32.toString(2);
     let zero = '0';
     let zeros = zero.repeat(32-str.length);
@@ -22,3 +23,4 @@ function int32ToIp(int32){
     return ip;
 }
 int32ToIp(2154959208)
+// int32ToIp('ed')
