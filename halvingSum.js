@@ -11,7 +11,6 @@
     halvingSum(25) should return 22
 */
 
-
 function halvingSum(n) {
     if(isNaN(n)) return null;
     let arr = [];
@@ -21,5 +20,5 @@ function halvingSum(n) {
     }     
     return arr.reduce((cur,pre) => cur+pre)
 }
-console.log(halvingSum(25))
+
 module.exports = halvingSum;
