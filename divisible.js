@@ -1,13 +1,20 @@
-function solution(A, B, K) {
-    // write your code in JavaScript (Node.js 8.9.4)
-    if(K < 1) return null;
-    if(B < A) return null;
-    // if(B === A) return 1;
+/*
+    Given three digits A, B an K. 
+    Find the number of multiples of K in the range A to B
+
+    Example
+    divisible(0, 10, 2) should return 4
+*/
+
+function divisible(A, B, K) {
+    if(isNaN(A) || isNaN(B) || isNaN(K)) return null;
+    if(A >= B ) return null;
     let arr = [];
-    for(let i = A ; i < B ; i++ ){
+    for(let i = A+1 ; i < B ; i++ ){
         arr.push(i);
     }; 
     let count = arr.filter(elem => elem%K === 0).length
     return count;
 }
-console.log(solution(11,345,17))
+
+module.exports = divisible;
