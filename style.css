@@ -14,7 +14,7 @@
         flex-wrap: wrap;
     }
     .card-columns-double .card{
-        width: 48%;
+        width: 47%;
         margin: 2px
     }
 }
