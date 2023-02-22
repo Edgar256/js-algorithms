@@ -2,19 +2,22 @@
 .code{
     font-family: Menlo, Monaco, "Courier New", Courier, monospace;
     background-color: #e5e5e5;
-    margin: 8px;
+    /* margin: 8px; */
     padding: 10px 5px;
     font-size: 90%
+}
+.col-4{
+    flex: 0 0 32.333333%;
 }
 
 @media (min-width: 576px){
     .card-columns-double{
-        column-count: 2;
+        /* column-count: 2; */
         display: flex;
         flex-wrap: wrap;
     }
-    .card-columns-double .card{
+    /* .card-columns-double .card{
         width: 47%;
         margin: 2px
-    }
+    } */
 }

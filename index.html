@@ -10,11 +10,11 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 <body class="bg-light">
-    <div class="container"> <br> <br>
+    <div class="container-fluid"> <br> <br>
         <h1 class="text-muted text-center">Working JS Algorithm examples</h1>
         <h4 class="text-center">find the code on my github at <a href="https://github.com/Edgar256/js-algorithms">https://github.com/Edgar256/js-algorithms</a></h4> <br> <br> <br>
         <div class="card-columns card-columns-double">
-            <div class="card">
+            <div class="card col-4 my-4">
                 <div class="card-body">
                     <h3 class="center-text">FIBONACCI ALGORITHM</h3>
                     <p>
@@ -35,7 +35,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card">
+            <div class="card col-4 my-4">
                 <div class="card-body">
                     <h3 class="center-text">PALINDROMME</h3>
                     <p>
@@ -56,9 +56,8 @@
                         <strong><span id="palindrom_text">xx</span> <span id="palindrom_parity"> is a ----></span> ( <span id="palindrom_boolean">true</span> )</strong>
                     </div>
                 </div>
-            </div>
-            
-            <div class="card">
+            </div>            
+            <div class="card col-4 my-4">
                 <div class="card-body">
                     <h3 class="center-text">STRING REVERSAL</h3>
                     <p>
@@ -82,6 +81,86 @@
                     </div>
                     <div>
                         <strong><span id="string_to_reverse"> xx </span></strong> has been reversed as <strong><span id="reversed_string"> xx </span></strong>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-4 my-4">
+                <div class="card-body">
+                    <h3 class="center-text">SMALLEST ANGLE BETWEEN CLOCK HANDS</h3>
+                    <p>
+                        Given hours and minutes hand position, return the smaller angle between the 2 hands                        
+                    </p>
+                    <p>
+                        <blockquote class="text-mute code">
+                            Example
+                            angleClock(12, 30) should return 165
+                        </blockquote>
+                    </p>
+                    <h5>Enter time to find smallest angle between Clock hands</h5>
+                    <div>
+                            <form action="" >
+                                <div class="form-group d-flex">
+                                    <input type="time" class="form-control" id="timeClockInput">
+                                    <button class="btn btn-primary" type="button" onclick="getAngleClock()">GetAngle</button>
+                                </div>
+                            </form>
+                    </div>
+                    <div>
+                        <strong>The smallest angle is <span id="degrees_angle"> xx </span></strong>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-4">
+                <div class="card-body">
+                    <h3 class="center-text">AREA OR PERIMETER</h3>
+                    <p>
+                        You are given the length and width of a 4-sided polygon. The polygon can either be a rectangle or a square.
+                                             
+                    </p>
+                    <p>
+                        <blockquote class="text-mute code">
+                            Example
+                            If it is a square, return its area. If it is a rectangle, return its perimeter.  
+                        </blockquote>
+                    </p>
+                    <h5>Enter length and width</h5>
+                    <div>
+                            <form action="" >
+                                <div class="form-group d-flex">
+                                    <input type="number" class="form-control w-50" id="length" placeholder="length">
+                                    <input type="number" class="form-control w-50" id="width" placeholder="width">
+                                    <button class="btn btn-primary" type="button" onclick="areaOrPerimeter()">GetAreaOrPerimeter</button>
+                                </div>
+                            </form>
+                    </div>
+                    <div>
+                        <strong>This is a <span id="area_or_width"> xx </span></strong>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-4">
+                <div class="card-body">
+                    <h3 class="center-text">CONVERT NUMBER TO ROMAN NUMERALS</h3>
+                    <p>
+                        Given a number, convert it into its equivalent roman numeral                   
+                    </p>
+                    <p>
+                        <blockquote class="text-mute code">
+                            Example
+                            Given a number, convert it into its equivalent roman numeral 
+                        </blockquote>
+                    </p>
+                    <h5>Enter length and width</h5>
+                    <div>
+                            <form action="" >
+                                <div class="form-group d-flex">
+                                    <input type="number" class="form-control" id="numToRoman" placeholder="number">
+                                    <button class="btn btn-primary" type="button" onclick="convertToRoman()">ConvertToRoman</button>
+                                </div>
+                            </form>
+                    </div>
+                    <div>
+                        <strong>In romans its <span id="num_to_roman"> xx </span></strong>
                     </div>
                 </div>
             </div>
