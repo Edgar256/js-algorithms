@@ -13,4 +13,4 @@ const countLetter = (str) => {
   return obj;
 };
 
-countLetter('           ');
+countLetter('Edgar Tinkamanyire');
